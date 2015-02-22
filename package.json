@@ -1,17 +1,17 @@
 {
-    "name": "NodeBlogMean",
+    "name": "NodeBlog",
     "version": "1.0.0",
-    "description": "NodeBlogMean",
-    "keywords": ["AngularJS", "Node.js", "Ken", "Williamson", "micbutton.com"],
+    "description": "NodeBlog",
+    "keywords": ["AngularJS", "Node.js", "Ken", "Williamson", "ExpressJS", "MongoDB"],
     "author": {
         "name": "Ken Williamson",
-        "email": "sales@drivensolutions.com",
-        "url": "http://www.drivensolutions.com/"
+        "email": "kenulborapublic@gmail.com",
+        "url": "http://www.ken-williamson.com"
     },
-    "homepage": "http://www.drivensolutions.com",
+    "homepage": "http://www.ken-williamson.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/openshift/origin-server"
+        "url": "https://github.com/KenWilliamson/NodeMeanBlog_for_LearningAngularJS"
     },
     "engines": {
         "node": ">= 0.6.0",
