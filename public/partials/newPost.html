@@ -1,0 +1,19 @@
+<div blg-menu menu-title="AngularJS MEAN Blog"></div> 
+<div id="container" class="container"> 
+    <div class="blog-post-label">New Blog Posts</div>
+    <div class="blog-post-wrapper">
+        <form class="" ng-submit="submit()" ng-controller="NewBlogPostCtrl">
+            <div class="blog-post-entry-label"><label for="introText">Intro Text:</label></div>
+            <div class="blog-post-entry-element"><textarea class="blog-post-textarea" type="text" ng-model="introText" name="introText" placeholder="Intro Text" required/></div>
+            <div class="blog-post-entry-label"><label for="blogText">Blog Text:</label></div>
+            <div class="blog-post-entry-element"><textarea class="blog-post-textarea" type="text" ng-model="blogText" name="blogText" placeholder="Blog Text" required/></div>
+            <div class="blog-post-entry-label"><label for="blogText">Language:</label></div>
+            <div class="blog-post-entry-element">
+                <select class="form-select-element-left" ng-model="languageId"  ng-options="lan.id as lan.name for lan in languageList" name="languageId" required>
+                </select>
+            </div>
+
+            <div class="blog-post-button"><button type="submit" class="form-button">Submit</button></div>
+        </form>
+    </div>
+</div>

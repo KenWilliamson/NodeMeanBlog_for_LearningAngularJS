@@ -1,0 +1,36 @@
+<div blg-menu menu-title="AngularJS MEAN Blog"></div> 
+<div id="container" class="container"> 
+    <div class="blog-post-label">Blog Entry</div>
+    <div class="blog-entry-wrapper">
+        <div class="blog-intro-text">
+            Posted: {{blogEntry.date| date:'MM/dd/yyyy @ h:mma'}}
+        </div>
+        <div class="blog-entry-outer">            
+            {{blogEntry.blogText}}
+        </div>
+        <div class="blog-comment-wrapper">
+            <div class="blog-comment-label">Blog Comments</div>
+            <div class="blog-entry-comments"  ng-repeat="comment in blogEntry.comments">
+                {{comment.commentText}}
+            </div>
+        </div>
+        <div class="blog-comment-entry-wrapper">            
+            <form class="" ng-submit="submit()" ng-controller="BlogViewCtrl">
+                <input type="hidden" ng-model="blogId"/>
+                <div class="blog-post-entry-label">
+                    <label for="commentText">New Comment:</label>
+                </div>
+                
+                <div class="blog-post-entry-element">
+                    <textarea class="blog-post-textarea" type="text" ng-model="commentText" name="commentText" placeholder="Comment" required/>
+                </div>
+
+                <div class="blog-post-button">
+                    <button type="submit" class="form-button">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+

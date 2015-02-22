@@ -1,0 +1,39 @@
+{
+    "name": "NodeBlogMean",
+    "version": "1.0.0",
+    "description": "NodeBlogMean",
+    "keywords": ["AngularJS", "Node.js", "Ken", "Williamson", "micbutton.com"],
+    "author": {
+        "name": "Ken Williamson",
+        "email": "sales@drivensolutions.com",
+        "url": "http://www.drivensolutions.com/"
+    },
+    "homepage": "http://www.drivensolutions.com",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/openshift/origin-server"
+    },
+    "engines": {
+        "node": ">= 0.6.0",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "express": "~3.4.4",
+        "mongoose": "*"
+    },
+    "devDependencies": {
+        "karma": "*",
+        "karma-chrome-launcher": "*",
+        "karma-firefox-launcher": "*",
+        "karma-jasmine": "*",
+        "karma-junit-reporter": "*",
+        "karma-coverage": "*",
+        "karma-ng-html2js-preprocessor": "~0.1"
+    },
+    "bundleDependencies": [],
+    "private": true,
+    "main": "./server.js",
+    "bugs": {
+        "url": "null"
+    }
+}

@@ -1,0 +1,307 @@
+body{
+    font-family: arial;
+    font-size: 12pt;
+    color: #2a6496;
+}
+
+.post-wrapper{
+    float: left;
+    width: 100%;
+    margin: 5% 0 0 0;
+    padding: 0 0 0 0;  
+}
+
+.blog-post-label{
+    float: left;
+    width: 100%;    
+    padding: 0 0 0 0;  
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.blog-post-outer{
+    float: left;
+    width: 60%;
+    margin: 2% 0 2% 20%;
+    padding: 1%;
+    background: #e0e0e0;
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+.blog-intro-text{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+.blog-read-more{
+    float: left;
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+
+
+.blog-entry-wrapper{
+    float: left;
+    width: 100%;
+    margin: 1% 0 0 0;
+    padding: 0 0 0 0; 
+}
+
+.blog-entry-outer{
+    float: left;
+    width: 60%;
+    margin: 2% 0 2% 20%;
+    padding: 1%;
+    background: #e0e0e0;
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+.blog-comment-wrapper{
+    float: left;   
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+.blog-entry-comments{
+    float: left;
+    width: 96%;
+    margin: 2% 0 2% 2%;
+    padding: 1%;
+    background: #f5e79e;
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+.blog-comment-label{
+    float: left;
+    width: 100%;
+    margin: 1% 0 0 0;
+    padding: 0 0 0 0;  
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+
+
+
+
+
+.blog-login-wrapper{
+    float: left; 
+    background: #e0e0e0;
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+
+
+@media screen and (min-width: 1200px){
+
+    .blog-login-wrapper{   
+        width: 40%;
+        margin: 10% 0 0 30%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-wrapper{   
+        width: 60%;
+        margin: 3% 0 0 20%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-label{
+        margin: 10% 0 0 0;
+    }
+    .blog-comment-wrapper{        
+        width: 50%;
+        margin: 2% 0 2% 25%;
+        padding: 1%;        
+    }
+
+    .blog-comment-entry-wrapper{   
+        width: 50%;
+        margin: 0 0 0 25%;
+        padding: 0 0 2% 0;
+            
+    }
+}
+@media screen and (max-width: 1200px){
+
+    .blog-login-wrapper{   
+        width: 40%;
+        margin: 10% 0 0 30%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-wrapper{   
+        width: 80%;
+        margin: 3% 0 0 15%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-label{
+        margin: 10% 0 0 0;
+    }
+    .blog-comment-wrapper{        
+        width: 80%;
+        margin: 2% 0 2% 10%;
+        padding: 1%;        
+    }
+    .blog-comment-entry-wrapper{   
+        width: 80%;
+        margin: 0 0 0 10%;
+        padding: 0 0 2% 0;
+              
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .blog-login-wrapper{   
+        width: 80%;
+        margin: 10% 0 0 10%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-wrapper{   
+        width: 90%;
+        margin: 3% 0 0 5%;
+        padding: 1%;
+        background: #e0e0e0;
+        border-radius:6px;
+        -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+        border: darkgreen solid 1px;        
+    }
+    .blog-post-label{
+        margin: 20% 0 0 0;
+    }
+    .blog-comment-wrapper{        
+        width: 90%;
+        margin: 2% 0 2% 5%;
+        padding: 1%;        
+    }
+    .blog-comment-entry-wrapper{   
+        width: 90%;
+        margin: 0 0 0 5%;
+        padding: 0 0 2% 0;
+              
+    }
+}
+
+.blog-login-label{
+    float: left;
+    width: 70%;
+    margin: 0 0 0 15%;
+    padding: 1% 0 0 0; 
+    text-align: center;
+}
+
+.blog-login-element{
+    float: left;
+    width: 70%;
+    margin: 0 0 0 15%;
+    padding: 1% 0 0 0; 
+    text-align: center;
+}
+
+.blog-login-button{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 5% 0 0 0; 
+    text-align: center;
+}
+.blog-login-error{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0; 
+    text-align: center;
+    color: red;
+}
+
+
+
+
+.blog-post-wrapper{
+    float: left; 
+    background: #e0e0e0;
+    border-radius:6px;
+    -moz-border-radius:6px; /* Firefox 3.6 and earlier */
+    border: darkgreen solid 1px;
+}
+
+
+
+.blog-post-entry-label{
+    float: left;
+    width: 70%;
+    margin: 0 0 0 15%;
+    padding: 3% 0 0 0; 
+    text-align: center;
+    font-size: 12pt;
+}
+
+.blog-post-entry-element{
+    float: left;
+    width: 70%;
+    margin: 0 0 0 15%;
+    padding: 0 0 0 0; 
+    text-align: center;    
+}
+
+.blog-post-textarea{
+    width: 80%;
+    height: 80px;
+}
+
+.blog-post-button{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 8% 0 0 0; 
+    text-align: center;
+}
+
+.blog-comment-entry-wrapper{
+    float: left;
+}
+
+.blog-about{
+    float: left;
+    width: 60%;
+    margin: 8% 0 0 20%;
+    padding: 0 0 0 0;
+    font-size: 26px;
+    
+}
